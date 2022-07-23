@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 15px;
+    font-size: 3em;
+}
+
+input {
+    padding: 15px;
+    width: 100vh;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(59, 59, 216);
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    /* width: 50%; */
+    display: inline;
+}
+
+#container {
+    height:fit-content;
+    justify-content: center;
+    /* border: 2px solid black; */
+    margin: 15px;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+
+.todoDiv {
+    display: flex;
+    justify-content: space-between;
+    /* width: 50%; */
+    margin: 5px;
+    /* border: 2px solid red; */
+}
+
+.trash-button {
+    border: none;
+    background-color: white;
+}
